@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 定义一个用于显示头像的ImageView -->
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="66px"
+        android:layout_height="66px"
+        android:layout_margin="8dp"
+        android:background="@drawable/contact" />
+
+    <!-- 定义一个竖直方向的LinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3sp"
+            android:text="我是用户·名组件。"
+            android:textColor="#00FFFF"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/item_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是电话组件。"
+            android:textColor="#7FFFAA"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
